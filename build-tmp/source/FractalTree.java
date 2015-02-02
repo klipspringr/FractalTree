@@ -33,8 +33,8 @@ public void draw()
 	stroke(240, 140);   
 	line(320,480,320,380);   
 	drawBranches(320,380,100,3*Math.PI/2);  //will add later
-	System.out.println("smallestBranch: "+smallestBranch);
-	System.out.println("branchAngle: "+branchAngle);
+	// System.out.println("smallestBranch: "+smallestBranch);
+	// System.out.println("branchAngle: "+branchAngle);
 	// if (smallestBranch > 15)
 	// {
 	// 	smallestBranch -= 1;

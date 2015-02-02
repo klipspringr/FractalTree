@@ -7,9 +7,6 @@ public void setup()
 	background(0);
 	size(640,480);    
 	frameRate(10);
-	// fill(0, 140);
-	// rect(0,0,0,640,640,480,640,480);   
-
 } 
 public void draw() 
 {   
@@ -17,16 +14,6 @@ public void draw()
 	stroke(240, 140);   
 	line(320,480,320,380);   
 	drawBranches(320,380,100,3*Math.PI/2);  //will add later
-	System.out.println("smallestBranch: "+smallestBranch);
-	System.out.println("branchAngle: "+branchAngle);
-	// if (smallestBranch > 15)
-	// {
-	// 	smallestBranch -= 1;
-	// }
-	// if (branchAngle < 12)
-	// {
-	// 	branchAngle += 0.1;
-	// }
 	branchAngle += 0.1;
 	if(isGrowing == true)
 	{
